@@ -70,7 +70,7 @@
   "about": {
     "id": 1,
     "heading": "Personal Summary",
-    "summery": "A dynamic and result-driven communication specialist with a journalism background. I have a knack for writing copy in a variety of formats; social media posts, website copy, emailers, newsletters and press releases. Currently part of a diverse team that is responsible for communicating company key projects and plans to over 55 000 of its internal stakeholders as well as key external stakeholders."
+    "summery": "<p>A dynamic and result-driven communication specialist with a journalism background. I have a knack for writing copy in a variety of formats; social media posts, website copy, emailers, newsletters and press releases. Currently part of a diverse team that is responsible for communicating company key projects and plans to over 55 000 of its internal stakeholders as well as key external stakeholders.</p> <p>I head the Transnet Newsroom, an initiative that I was key in setting up and ensuring that its is operational. Through this platform, my team and I write Transnet positive stories and repurpose this content so it can live on an array of the company’s communication channels such as social media, emailers and on WhatsApp groups. This initiative is crucial as Transnet employees are spread across the country and some do not have access to company emails due to their geographical location – so we keep everyone informed about what is happening in our organisation. </p> <p>I am looking to work in an agile environment that embraces diversity, is customer centric, cares about the environment and is using technology to transform its service offering and the lives of its key stakeholders.</p> <p>When it comes to the company, the main thing is finding a space where I can grow. Specifically, I am looking to grow into a leadership role at some point in my career, so I would love a space that can help with that growth trajectory. Whilst I am open to all industries, I have a keen interest in the Fintech industry.</p>"
   },
   "experience": [
     {
@@ -95,7 +95,8 @@
          "Mentoring the newly appointed Young Professionals in Training.",
          "Generating the Transnet Customer Newsletter.",
          "Work creatively with our digital marketing team and our development teams to develop layout for various content and communication pieces.",
-         "Work with marketing and content team to develop compelling infographics for B2B and B2C technology audiences."
+         "Work with marketing and content team to develop compelling infographics for B2B and B2C technology audiences.",
+         "Organise vitua"
        ],
        "projects": []
     },
@@ -104,13 +105,18 @@
       "company": "Transnet SOC Ltd ",
       "startdate": "October 2015",
       "enddate": "November 2017",
-      "position": "Communication specialist",
-      "summery": "As a Communication Specialist my role was to generate content for our internal stakeholders who manage and improve all our communication flows, within and outside of our company.",
+      "position": "Communication Specialist",
+      "summery": "As a Communication Specialist my role was to generate content for our internal stakeholders and to manage and improve all our communication flows, within and outside of our company.",
       "roles": [
-       "Promote a positive public image about Transnet.",
-       "Assist in developing and implementing communications strategies and plans aligned to the overall strategy.",
-       "Write press releases.",
-       "Generate content for Transnet social media pages."
+       "Create effective communication strategies for Transnet SOC. Ltd.",
+       "Coordinate the company’s Multi-Stakeholder surveys with an intention to learn how our stakeholders perceive our company so that we can implement strategies that can improve our public image.",
+       "Manage external and internal communications flow (memos, newsletters etc.).",
+       "Design templates of mass media announcement.",
+       "Research and write content for the company website, emailers, newsletters and the Transnet One Magazine",
+       "Organise company events, seminars and media conferences",
+       "Regularly engage with media",
+       "Organise and launch Transnet’s flagship projects such as the company’s Supplier Development hubs",
+       "Review and edit the Transnet Integrated Report."
       ],
       "projects":[]
     },
@@ -175,7 +181,7 @@
       "startdate": "Jan 2011",
       "enddate": "Dec 2011",
       "position": "Student Mentor",
-      "summery": "",
+      "summery": "Offering Journalism first year students extra lessons on Mass Media.",
       "roles": [
         "Offering Journalism first year students extra lessons on Mass Media."
       ],
@@ -187,211 +193,48 @@
       "id": 1,
       "projectName": "Bidvest Bank Website",
       "summary": "Consumer facing application built with Angular10",
-      "image": "project_bidvest.jpg",
-      "imageLeft": false,
-      "url": "https://www.bidvestbank.co.za/",
-      "technologies": [
-        {
-          "id": 45,
-          "tech": "Angular",
-          "icon": "angular.svg"
-        },
-        {
-          "id": 48,
-          "tech": "Git",
-          "icon": "git.svg"
-        },
-        {
-          "id": 46,
-          "tech": "Html5",
-          "icon": "html.svg"
-        },
-        {
-          "id": 49,
-          "tech": "NodeJS",
-          "icon": "nodejs.svg"
-        },
-        {
-          "id": 47,
-          "tech": "Sass",
-          "icon": "sass.svg"
-        }
-      ]
+      "image": "1.jpg",
+      "thumb": "thumb_1.jpg",
+      "isPdf": false
     },
     {
       "id": 5,
       "projectName": "FOGG Agency - Worksheet",
-      "summary": "Angular web application to teach students to save electricity",
-      "image": "project_eskom.jpg",
-      "imageLeft": true,
-      "url": "http://rubybook.co.za/worksheets/#/",
-      "technologies": [
-        {
-          "id": 34,
-          "tech": "AngulaJS",
-          "icon": "angular.svg"
-        },
-        {
-          "id": 40,
-          "tech": "Git",
-          "icon": "git.svg"
-        },
-        {
-          "id": 35,
-          "tech": "Javascript",
-          "icon": "javascript.svg"
-        },
-        {
-          "id": 39,
-          "tech": "Sass",
-          "icon": "sass.svg"
-        },
-        {
-          "id": 36,
-          "tech": "Html5",
-          "icon": "html.svg"
-        }
-      ]
+      "image": "2.jpg",
+      "thumb": "thumb_2.jpg",
+      "isPdf": false
     },
     {
       "id": 5,
       "projectName": "Fortune Lounge",
-      "summary": "Fortune Lounge is a marketing alliance of top international online casinos",
-      "image": "project_fortunelounge.jpg",
-      "imageLeft": false,
-      "url": "https://www.fortunelounge.com/",
-      "technologies": [
-        {
-          "id": 35,
-          "tech": "Javascript",
-          "icon": "javascript.svg"
-        },
-        {
-          "id": 39,
-          "tech": "Sass",
-          "icon": "sass.svg"
-        },
-        {
-          "id": 36,
-          "tech": "Html5",
-          "icon": "html.svg"
-        },
-        {
-          "id": 40,
-          "tech": "Git",
-          "icon": "git.svg"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "projectName": "Planning Africa 2018",
-      "summary": "Responsive UI and Web development",
-      "image": "project_planingafrica.jpg",
-      "imageLeft": true,
-      "url": "https://planningafrica.netlify.app/",
-      "technologies": [
-        {
-          "id": 77,
-          "tech": "HTML5",
-          "icon": "html.svg"
-        },
-        {
-          "id": 75,
-          "tech": "Javascript",
-          "icon": "javascript.svg"
-        },
-        {
-          "id": 76,
-          "tech": "JQuery",
-          "icon": "jquery.svg"
-        },
-        {
-          "id": 78,
-          "tech": "Sass",
-          "icon": "sass.svg"
-        },
-        {
-          "id": 79,
-          "tech": "Git",
-          "icon": "git.svg"
-        }
-      ]
+      "summary": "",
+      "image": "3.jpg",
+      "thumb": "thumb_3.jpg",
+      "isPdf": false
     },
     {
       "id": 6,
-      "projectName": "NEOTECH Website",
-      "summary": "Website UI Development, CMS Development and Content Management.",
-      "image": "project_neotech.jpg",
-      "imageLeft": false,
-      "url": "https://www.neoteck.co.za/",
-      "technologies": [
-        {
-          "id": 37,
-          "tech": "Html5",
-          "icon": "html.svg"
-        },
-        {
-          "id": 38,
-          "tech": "Wordpress",
-          "icon": "wordpress.svg"
-        },
-        {
-          "id": 42,
-          "tech": "Sass",
-          "icon": "sass.svg"
-        },
-        {
-          "id": 44,
-          "tech": "Git",
-          "icon": "git.svg"
-        },
-        {
-          "id": 41,
-          "tech": "Photoshop",
-          "icon": "photoshop.svg"
-        },
-        {
-          "id": 43,
-          "tech": "JQuery",
-          "icon": "jquery.svg"
-        }
-      ]
+      "projectName": "Fortune Lounge",
+      "summary": "",
+      "image": "4.pdf",
+      "thumb": "thumb_4.jpg",
+      "isPdf": true
     },
     {
-      "id": 13,
-      "projectName": "Tlholo Pele Consulting",
-      "summary": "UI Development and Content Management ",
-      "image": "project_tlholopele.jpg",
-      "imageLeft": true,
-      "url": "https://www.tpconsultancy.co.za/",
-      "technologies": [
-        {
-          "id": 80,
-          "tech": "Html5",
-          "icon": "html.svg"
-        },
-        {
-          "id": 81,
-          "tech": "Sass",
-          "icon": "sass.svg"
-        },
-        {
-          "id": 82,
-          "tech": "Javascript",
-          "icon": "javascript.svg"
-        },
-        {
-          "id": 83,
-          "tech": "JQuery",
-          "icon": "jquery.svg"
-        },
-        {
-          "id": 84,
-          "tech": "WordPress",
-          "icon": "wordpress.svg"
-        }
-      ]
+      "id": 6,
+      "projectName": "Fortune Lounge",
+      "summary": "",
+      "image": "5.pdf",
+      "thumb": "thumb_5.jpg",
+      "isPdf": true
+    },
+    {
+      "id": 6,
+      "projectName": "Fortune Lounge",
+      "summary": "",
+      "image": "6.pdf",
+      "thumb": "thumb_6.jpg",
+      "isPdf": true
     }
   ],
   "contact": {

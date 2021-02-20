@@ -43,47 +43,17 @@
     </div>
   </div>
 
-
-  <!-- <div class="section pt-4" id="services">
-    <app-loader *ngIf="loading"></app-loader>
-    <div class="container cc-experience" *ngIf="!loading">
-      <div class="h4 text-center mb-4 title">Services</div>
-      <div class="row d-flex justify-content-around">
-        <div class="col-sm" *ngFor="let item of portfolio?.services">
-          <div class="card h-85 text-center" data-aos="fade-up" data-aos-offset="50" data-aos-duration="500">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="card-body">
-                  <button type="button" class="btn btn-default btn-round btn-lg btn-icon"><i  class="fa {{item?.icon}}"></i></button>
-                  <div class="h5">{{item?.heading}}</div>
-                  <p [innerHTML]="item?.summary"></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
   <div class="section pt-4" id="skills">
     <app-loader *ngIf="loading"></app-loader>
     <div class="container" *ngIf="!loading">
       <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div class="card-body">
           <div class="h4 mt-0 title">Skills</div>
-          <div class="row">
-            <div class="col-md-6" *ngFor="let item of portfolio?.skills">
-              <div class="progress-container progress-primary bg-darken-1">
-                <span class="progress-badge">{{item?.name}}</span>
-                <!-- <div class="progress">
-                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" [ngStyle]="{'width': item?.strength + '%'}"></div>
-                  <span class="progress-value">{{item?.strength}}%</span>
-                </div> -->
-              </div>
-            </div>
-          </div>
+          <ul>
+            <li *ngFor="let item of portfolio?.skills">
+              {{item?.name}}
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -93,29 +63,13 @@
     <app-loader *ngIf="loading"></app-loader>
     <div class="container" *ngIf="!loading">
       <div class="h4 text-left mb-4 title">Latest work</div>
-      <div class="card mb-50" *ngFor="let project of portfolio?.project">
-        <div class="row" [class.flex-row-reverse]="project?.imageLeft">
-          <div class="col-md-8 bg-light" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-            <img *ngIf="project?.image" src="assets/images/{{project?.image}}" [alt]="project?.projectName"/>
-          </div>
-          <div class="col-md-4" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-            <div class="card-body">
-              <div class="h5">{{project?.projectName}}</div>
-              <p [innerHTML]="project?.summary"></p>
-              <div class="row">
-                <div class="col-12 h6">Built with:</div>
-                <div class="col-sm" *ngFor="let tech of project?.technologies">
-                  <button type="button" class="btn btn-light text-black-50 btn-sm">
-                    <span class="svg-icon-2x v-align-center" inlineSVG="assets/svg/{{tech?.icon}}"></span>
-                     {{tech?.tech}}
-                  </button>
-                </div>
-                <div class="col-12">
-                   <a [href]="project?.url" target="_blank" *ngIf="project?.url" class="btn btn-primary text-black-50">
-                        Visit website
-                  </a>
-                </div>
-              </div>
+      <div class="row">
+        <div class="col-md-4 mb-3" *ngFor="let item of portfolio.project; let i = index">
+          <div class="card pos-relative">
+            <img style="cursor: pointer;" *ngIf="item?.thumb" [src]="'assets/images/'+item?.thumb">
+            <div class="hover-btns">
+                  <button *ngIf="!item.isPdf" type="button" (click)="openImage(item)" class="btn btn-primary">View</button>
+                  <a class="btn btn-primary" *ngIf="item.isPdf" [href]="'assets/images/'+item?.image" target="_blank">View</a>
             </div>
           </div>
         </div>
@@ -166,3 +120,28 @@
       </div>
     </div>
   </div>
+
+
+  <div class="modal d-block show" *ngIf="isOpen">
+    <div class="modal-dialog modal-md" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+             <span *ngIf="!selectedItem?.isPdf">Social Media Post</span>
+             <span *ngIf="selectedItem?.isPdf">Article</span>
+          </h5>
+          <button type="button" class="close" (click)="toggle()" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+           <img *ngIf="selectedItem?.image" [src]="'assets/images/'+ selectedItem?.thumb" class="image-fluid" alt="" srcset="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" style="opacity: 0;" class="btn btn-secondary"></button>
+          <button type="button" class="btn btn-primary" (click)="toggle()">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-backdrop" *ngIf="isOpen"></div>

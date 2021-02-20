@@ -32,10 +32,9 @@ export interface Project {
   projectName: string;
   images: any;
   image: string;
+  thumb: string;
   summary: string;
-  technologies: Technology[];
-  imageLeft: boolean;
-  url: string;
+  isPdf: boolean;
 }
 
 export interface Technology {

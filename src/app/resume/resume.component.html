@@ -1,5 +1,5 @@
 <app-header [isResume]="true">
-  <a download href="assets/Lucky_Hlakaza.pdf" class="nav-link smooth-scroll">
+  <a download href="assets/Neo_Tempest.pdf" class="nav-link smooth-scroll">
     <i class="fa fa-download"></i> PDF Version
  </a>
 </app-header>
@@ -46,7 +46,7 @@
                   </div>
                   <div class="resume-timeline-item-desc">
                      <p *ngIf="item?.summery" [innerHTML]="item?.summery"></p>
-                    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Responsibilities:</h4>
+                    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Roles:</h4>
                     <ul>
                       <li *ngFor="let role of item?.roles" [innerHTML]="role"></li>
                     </ul>

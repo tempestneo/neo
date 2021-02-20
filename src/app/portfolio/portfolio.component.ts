@@ -14,17 +14,32 @@ export class PortfolioComponent implements OnInit {
   error = '';
   loading = true;
   navShowing = false;
-
+  selectedItem: any = {};
+  isOpen = false;
   constructor(readonly api: ApiService) { }
 
   ngOnInit(): void {
     this.api.getPortfolio().subscribe((res: any) => {
-      this.portfolio = res
-      this.loading = false
+      this.portfolio = res;
+      this.loading = false;
     }, err => {
-      this.error = JSON.stringify(err)
-      this.loading = false
-    })
+      this.error = JSON.stringify(err);
+      this.loading = false;
+    });
+  }
+
+  openImage(item): void {
+     this.selectedItem = item;
+     this.toggle();
+  }
+
+  toggle(): void {
+     this.isOpen = !this.isOpen;
+     if (this.isOpen) {
+       document.querySelector('body').classList.add('modal-open');
+     } else {
+      document.querySelector('body').classList.remove('modal-open');
+     }
   }
 
 }
