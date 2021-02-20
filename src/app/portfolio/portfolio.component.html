@@ -1,0 +1,168 @@
+<app-header></app-header>
+<div class="page-content"><div>
+  <app-loader *ngIf="loading"></app-loader>
+  <div class="profile-page" *ngIf="!loading">
+    <div class="wrapper">
+      <div class="page-header page-header-small">
+        <div class="page-header-image" data-aos="fade-in" *ngIf="portfolio?.profile?.backgroundUrl" data-parallax="true" [ngStyle]="{'background-image': 'url('+env?.imageUrl+'/'+portfolio?.profile?.backgroundUrl+')'}"></div>
+        <div class="container">
+          <div class="content-center">
+            <div class="cc-profile-image" *ngIf="portfolio?.profile?.avatarUrl">
+              <a><img [src]="env.imageUrl+'/'+portfolio?.profile?.avatarUrl" [alt]="portfolio?.profile?.avatarUrl"/></a>
+            </div>
+            <div class="h2 title">{{portfolio?.profile?.name}}</div>
+            <p class="category text-white">{{portfolio?.profile?.jobTitle}}</p>
+            <a class="btn btn-primary smooth-scroll mr-2" routerLink="./" fragment="contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a>
+            <a class="btn btn-primary" routerLink="cv" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+          </div>
+        </div>
+        <div class="section">
+          <div class="container">
+            <div class="button-container">
+              <a *ngFor="let item of portfolio?.social" class="btn btn-default btn-round btn-lg btn-icon" [href]="item?.url" target="_blank" rel="tooltip" [title]="item?.name"><i class="fa {{item?.icon}}"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="about">
+    <app-loader *ngIf="loading"></app-loader>
+    <div class="container" *ngIf="!loading">
+      <div class="card" data-aos="fade-up" data-aos-offset="10">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="card-body">
+              <div class="h4 mt-0 title">{{portfolio?.about?.heading}}</div>
+             <p data-aos="fade-in" [innerHTML]="portfolio?.about.summery"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="section pt-4" id="services">
+    <app-loader *ngIf="loading"></app-loader>
+    <div class="container cc-experience" *ngIf="!loading">
+      <div class="h4 text-center mb-4 title">Services</div>
+      <div class="row d-flex justify-content-around">
+        <div class="col-sm" *ngFor="let item of portfolio?.services">
+          <div class="card h-85 text-center" data-aos="fade-up" data-aos-offset="50" data-aos-duration="500">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card-body">
+                  <button type="button" class="btn btn-default btn-round btn-lg btn-icon"><i  class="fa {{item?.icon}}"></i></button>
+                  <div class="h5">{{item?.heading}}</div>
+                  <p [innerHTML]="item?.summary"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <div class="section pt-4" id="skills">
+    <app-loader *ngIf="loading"></app-loader>
+    <div class="container" *ngIf="!loading">
+      <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="card-body">
+          <div class="h4 mt-0 title">Skills</div>
+          <div class="row">
+            <div class="col-md-6" *ngFor="let item of portfolio?.skills">
+              <div class="progress-container progress-primary bg-darken-1">
+                <span class="progress-badge">{{item?.name}}</span>
+                <!-- <div class="progress">
+                  <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" [ngStyle]="{'width': item?.strength + '%'}"></div>
+                  <span class="progress-value">{{item?.strength}}%</span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section pt-4" id="work">
+    <app-loader *ngIf="loading"></app-loader>
+    <div class="container" *ngIf="!loading">
+      <div class="h4 text-left mb-4 title">Latest work</div>
+      <div class="card mb-50" *ngFor="let project of portfolio?.project">
+        <div class="row" [class.flex-row-reverse]="project?.imageLeft">
+          <div class="col-md-8 bg-light" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <img *ngIf="project?.image" src="assets/images/{{project?.image}}" [alt]="project?.projectName"/>
+          </div>
+          <div class="col-md-4" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">{{project?.projectName}}</div>
+              <p [innerHTML]="project?.summary"></p>
+              <div class="row">
+                <div class="col-12 h6">Built with:</div>
+                <div class="col-sm" *ngFor="let tech of project?.technologies">
+                  <button type="button" class="btn btn-light text-black-50 btn-sm">
+                    <span class="svg-icon-2x v-align-center" inlineSVG="assets/svg/{{tech?.icon}}"></span>
+                     {{tech?.tech}}
+                  </button>
+                </div>
+                <div class="col-12">
+                   <a [href]="project?.url" target="_blank" *ngIf="project?.url" class="btn btn-primary text-black-50">
+                        Visit website
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section pt-4" id="experience">
+    <app-loader *ngIf="loading"></app-loader>
+    <div class="container cc-experience" *ngIf="!loading">
+      <div class="h4 text-left mb-4 title">Work Experience</div>
+      <div class="card" *ngFor="let item of portfolio?.experience">
+        <div class="row">
+          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-experience-header">
+              <p>{{item?.startdate}} - {{item?.enddate ? item?.enddate : 'Present'}}</p>
+              <div class="h5">{{item?.company}}</div>
+            </div>
+          </div>
+          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">{{item?.position}}</div>
+              <p [innerHTML]="item?.summery"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <div class="cc-contact-information" style="background-image: url('assets/images/staticmap.png');">
+      <div class="container">
+        <div class="cc-contact">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="card mb-0 pb-4" data-aos="zoom-in">
+                <div class="h4 text-center title">Hire Me</div>
+                <div class="row justify-content-center">
+                  <a class="btn btn-whatsapp btn-round btn-lg btn-icon" target="_blank" href="{{portfolio?.contact?.whatsapp}}"><i class="fa fa-2x fa-whatsapp"></i></a>
+                  <a class="btn btn-default btn-round btn-lg btn-icon mx-4" href="tel:{{portfolio?.contact?.phone}}"><i class="fa fa-2x fa-phone"></i></a>
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="mailto:{{portfolio?.contact?.email}}"><i class="fa fa-2x fa-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

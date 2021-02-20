@@ -1,0 +1,465 @@
+{
+  "id": 1,
+  "created_by": {
+    "id": 1,
+    "firstname": "NEO",
+    "lastname": "MANGANYE",
+    "username": null
+  },
+  "profile": {
+    "id": 1,
+    "avatarUrl": "avatar.jpg",
+    "name": "Neo Manganye",
+    "jobTitle": "Senior Content Writer, UX Writer, Social Media Manager",
+    "backgroundUrl": "background.jpg",
+    "avatar": null,
+    "background": null
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "Good writing style that is accurate and adaptable, with an impeccable use of grammar.",
+      "strength": 80
+    },
+    {
+      "id": 13,
+      "name": "Excellent writing and editing skills including strong attention to detail.",
+      "strength": 65
+    },
+    {
+      "id": 12,
+      "name": "Excellent written and verbal communication skills and a demonstrable reasoning ability to explain and pitch ideas.",
+      "strength": 85
+    },
+    {
+      "id": 2,
+      "name": "Ability to perform multiple tasks concurrently while meeting quality objectives.",
+      "strength": 85
+    },
+    {
+      "id": 14,
+      "name": "Detail orientated and who can quickly learn different industry terminology.",
+      "strength": 95
+    },
+    {
+      "id": 10,
+      "name": "Strong time management and organizational skills; ability to prioritize and multi-task.",
+      "strength": 90
+    },
+    {
+      "id": 3,
+      "name": "Strong understanding of professional services marketing.",
+      "strength": 80
+    },
+    {
+      "id": 6,
+      "name": "Ability to build strong working relationships across all levels of the organization.",
+      "strength": 65
+    },
+    {
+      "id": 9,
+      "name": "Ability to provide creative direction.",
+      "strength": 70
+    },
+    {
+      "id": 15,
+      "name": "Ability to work quickly and to agreed daily targets.",
+      "strength": 45
+    }
+  ],
+  "about": {
+    "id": 1,
+    "heading": "Personal Summary",
+    "summery": "A dynamic and result-driven communication specialist with a journalism background. I have a knack for writing copy in a variety of formats; social media posts, website copy, emailers, newsletters and press releases. Currently part of a diverse team that is responsible for communicating company key projects and plans to over 55 000 of its internal stakeholders as well as key external stakeholders."
+  },
+  "experience": [
+    {
+      "id": 5,
+      "company": "Transnet SOC Ltd",
+      "startdate": "November 2017",
+      "enddate": null,
+      "position": "Senior Communication Specialist",
+      "summery": "Transnet SOC Ltd is the custodian to the country’s freight, rail, pipeline, terminals and ports systems and it operates and maintains in excess of 30 000km of rail infrastructure. My role in the company entails developing and implementing communication strategy which aim to protect and enhance the reputation of the company. These include the drafting of press releases, media relations, media monitoring and stakeholder management. I also had the opportunity to lead the company’s anti-petroleum theft awareness campaign which aimed to bring awareness to Transnet’s key stakeholders about the impact of tampering with the pipeline network and siphoning petroleum products from this infrastructure. The campaign reached over 30 million viewers on various television channels (SABC, eTV and DSTV channels).",
+       "roles": [
+         "Managing, implementing, monitoring and planning for company’s social media pages (Facebook, Twitter and LinkedIn) which have over 300 000 followers. ",
+         "Research, write, edit and interview internal departments to obtain editorial material for Corporate Centre newsletters and e-mailers.",
+         "Design creative templates for the company’s newsroom (this initiative aims to communicate the company’s milestones and employee cost cutting innovations).",
+         "Media relations (organise interviews for company executives, set-up press briefings and respond to media queries).",
+         "Write copy for the company website and intranet.",
+         "Write holding statement and press releases.",
+         "Oversee alignment of marketing collateral with the Transnet brand identity.",
+         "Monitor daily media reports on the company, compile monthly media analysis reports and develop a strategy to mitigate reputation issues emerging from these reports.",
+         "Manage and brief service providers timeously to deliver internal content.",
+         "Ensure spend is within budget and adheres to Procurement and Public Finance Management Act (PMFA) standards.",
+         "Design, manage and distribute promotional and branding collateral to relevant stakeholders.",
+         "Mentoring the newly appointed Young Professionals in Training.",
+         "Generating the Transnet Customer Newsletter.",
+         "Work creatively with our digital marketing team and our development teams to develop layout for various content and communication pieces.",
+         "Work with marketing and content team to develop compelling infographics for B2B and B2C technology audiences."
+       ],
+       "projects": []
+    },
+    {
+      "id": 6,
+      "company": "Transnet SOC Ltd ",
+      "startdate": "October 2015",
+      "enddate": "November 2017",
+      "position": "Communication specialist",
+      "summery": "As a Communication Specialist my role was to generate content for our internal stakeholders who manage and improve all our communication flows, within and outside of our company.",
+      "roles": [
+       "Promote a positive public image about Transnet.",
+       "Assist in developing and implementing communications strategies and plans aligned to the overall strategy.",
+       "Write press releases.",
+       "Generate content for Transnet social media pages."
+      ],
+      "projects":[]
+    },
+    {
+      "id": 7,
+      "company": "FSP Invest, Fleet Street Publications",
+      "startdate": "September 2014",
+      "enddate": "August 2015",
+      "position": "Managing assistant editor",
+      "summery": "FSP Invest, a division of Fleet Street Publications (Pty) Ltd, is a research house and not a registered broker, financial advisor or financial service provider. As a managing assistant editor at FSP Invest, my role involved working closely with the editor-in-chief to research and brainstorm ideas for new articles various publications (Money Club and Fast-track Millionaire.) The bulk of my work involved writing and editing – this opportunity honed my writing skills and ability to pay attention to details.",
+      "roles": [
+        "Writing marketing copy and business articles for www.moneyclub.co.za.",
+        "Writing compelling slider and banner copy for  www.moneyclub.co.za.",
+        "Creating and changing popups on www.moneyclub.co.za.",
+        "Writing copy for a publication called Fast-track Millionaire.",
+        "Tracking traffic on the website and improving copy to attract more people and   increase signups.",
+        "Running Facebook campaigns to drive traffic to our websites and eventually generate sales.",
+        "Laying out and sending our daily Money Club newsletter to our subscribers.",
+        "Using Google Analytics to compile detailed statistics about our website's traffic and traffic sources and measure conversions and sales.",
+        "Sending fulfilment emails to our Money Club Book Club subscribers.",
+        "Editing copy for different publications (Fast-track Millionaire, Red Hot Penny Shares, Stock of the month and the South African Investor).",
+        "Aligning with team members to ensure deadlines are met."
+      ],
+      "projects": [ ]
+    }, {
+      "id": 8,
+      "company": "Succeed Magazine",
+      "startdate": "June 2012",
+      "enddate": "July 2014",
+      "position": "Journalist",
+      "summery": "Succeed Magazine was a publication which offered financial literacy and tips to its audience. My roles included writing articles, regular features and transforming press releases into content for online marketing.",
+      "roles": [
+        "Writing articles, regular features including events pages, 60 second articles and quick bits.",
+        "Writing eBooks and advertorials.",
+        "Transforming press releases into content for online marketing.",
+        "Conducting telephonic interviews and doing basic research.",
+        "Attending exhibitions and selling subscriptions.",
+        "Receptionist duties (answering, screening, and forwarding telephone calls)",
+        "Greeting walk-in customers and other visitors and escorting them to specific destinations.",
+        "Performing administrative support tasks, such as keeping appointment calendar."
+      ],
+      "projects": []
+    }, {
+      "id": 9,
+      "company": "TUT FM 96.2",
+      "startdate": "February 2011",
+      "enddate": "April 2012",
+      "position": "News reader and presenter",
+      "summery": "TUT FM 96.2 is a university campus radio station based in Soshanguve, Gauteng. My role was to Conduct live interviews with experts who can provide additional information or opinions.",
+      "roles": [
+        "Interpret and present news stories so that viewers or listeners can better understand them.",
+        "Conduct live interviews with experts who can provide additional information or opinion.",
+        "Investigate stories and compiling news bulletins.",
+        "Conducting telephonic interviews and doing basic research.",
+        "Reading news and co-hosting."
+      ],
+      "projects": []
+    },
+    {
+      "id": 9,
+      "company": "Tshwane University of Technology",
+      "startdate": "Jan 2011",
+      "enddate": "Dec 2011",
+      "position": "Student Mentor",
+      "summery": "",
+      "roles": [
+        "Offering Journalism first year students extra lessons on Mass Media."
+      ],
+      "projects": []
+    }
+  ],
+  "project": [
+    {
+      "id": 1,
+      "projectName": "Bidvest Bank Website",
+      "summary": "Consumer facing application built with Angular10",
+      "image": "project_bidvest.jpg",
+      "imageLeft": false,
+      "url": "https://www.bidvestbank.co.za/",
+      "technologies": [
+        {
+          "id": 45,
+          "tech": "Angular",
+          "icon": "angular.svg"
+        },
+        {
+          "id": 48,
+          "tech": "Git",
+          "icon": "git.svg"
+        },
+        {
+          "id": 46,
+          "tech": "Html5",
+          "icon": "html.svg"
+        },
+        {
+          "id": 49,
+          "tech": "NodeJS",
+          "icon": "nodejs.svg"
+        },
+        {
+          "id": 47,
+          "tech": "Sass",
+          "icon": "sass.svg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "projectName": "FOGG Agency - Worksheet",
+      "summary": "Angular web application to teach students to save electricity",
+      "image": "project_eskom.jpg",
+      "imageLeft": true,
+      "url": "http://rubybook.co.za/worksheets/#/",
+      "technologies": [
+        {
+          "id": 34,
+          "tech": "AngulaJS",
+          "icon": "angular.svg"
+        },
+        {
+          "id": 40,
+          "tech": "Git",
+          "icon": "git.svg"
+        },
+        {
+          "id": 35,
+          "tech": "Javascript",
+          "icon": "javascript.svg"
+        },
+        {
+          "id": 39,
+          "tech": "Sass",
+          "icon": "sass.svg"
+        },
+        {
+          "id": 36,
+          "tech": "Html5",
+          "icon": "html.svg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "projectName": "Fortune Lounge",
+      "summary": "Fortune Lounge is a marketing alliance of top international online casinos",
+      "image": "project_fortunelounge.jpg",
+      "imageLeft": false,
+      "url": "https://www.fortunelounge.com/",
+      "technologies": [
+        {
+          "id": 35,
+          "tech": "Javascript",
+          "icon": "javascript.svg"
+        },
+        {
+          "id": 39,
+          "tech": "Sass",
+          "icon": "sass.svg"
+        },
+        {
+          "id": 36,
+          "tech": "Html5",
+          "icon": "html.svg"
+        },
+        {
+          "id": 40,
+          "tech": "Git",
+          "icon": "git.svg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "projectName": "Planning Africa 2018",
+      "summary": "Responsive UI and Web development",
+      "image": "project_planingafrica.jpg",
+      "imageLeft": true,
+      "url": "https://planningafrica.netlify.app/",
+      "technologies": [
+        {
+          "id": 77,
+          "tech": "HTML5",
+          "icon": "html.svg"
+        },
+        {
+          "id": 75,
+          "tech": "Javascript",
+          "icon": "javascript.svg"
+        },
+        {
+          "id": 76,
+          "tech": "JQuery",
+          "icon": "jquery.svg"
+        },
+        {
+          "id": 78,
+          "tech": "Sass",
+          "icon": "sass.svg"
+        },
+        {
+          "id": 79,
+          "tech": "Git",
+          "icon": "git.svg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "projectName": "NEOTECH Website",
+      "summary": "Website UI Development, CMS Development and Content Management.",
+      "image": "project_neotech.jpg",
+      "imageLeft": false,
+      "url": "https://www.neoteck.co.za/",
+      "technologies": [
+        {
+          "id": 37,
+          "tech": "Html5",
+          "icon": "html.svg"
+        },
+        {
+          "id": 38,
+          "tech": "Wordpress",
+          "icon": "wordpress.svg"
+        },
+        {
+          "id": 42,
+          "tech": "Sass",
+          "icon": "sass.svg"
+        },
+        {
+          "id": 44,
+          "tech": "Git",
+          "icon": "git.svg"
+        },
+        {
+          "id": 41,
+          "tech": "Photoshop",
+          "icon": "photoshop.svg"
+        },
+        {
+          "id": 43,
+          "tech": "JQuery",
+          "icon": "jquery.svg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "projectName": "Tlholo Pele Consulting",
+      "summary": "UI Development and Content Management ",
+      "image": "project_tlholopele.jpg",
+      "imageLeft": true,
+      "url": "https://www.tpconsultancy.co.za/",
+      "technologies": [
+        {
+          "id": 80,
+          "tech": "Html5",
+          "icon": "html.svg"
+        },
+        {
+          "id": 81,
+          "tech": "Sass",
+          "icon": "sass.svg"
+        },
+        {
+          "id": 82,
+          "tech": "Javascript",
+          "icon": "javascript.svg"
+        },
+        {
+          "id": 83,
+          "tech": "JQuery",
+          "icon": "jquery.svg"
+        },
+        {
+          "id": 84,
+          "tech": "WordPress",
+          "icon": "wordpress.svg"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "id": 1,
+    "address": "Johannesburg",
+    "phone": "0635011583",
+    "email": "tempestmanganye@gmail.com",
+    "whatsapp": "https://wa.me/27635011583?text=Hi Neo"
+  },
+  "social": [
+    {
+      "id": 10,
+      "name": "Twitter",
+      "icon": "fa-twitter",
+      "url": "https://twitter.com/Tempest_Neo"
+    },
+    {
+      "id": 11,
+      "name": "Linked-In",
+      "icon": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/neo-m-495267133/"
+    }
+  ],
+  "services": [
+    {
+      "id": 5,
+      "icon": "fa-laptop",
+      "heading": "UX & Design",
+      "summary": "I use innovative digital techniques to deliver cutting-edge design and intelligent user experiences tailored to your audience."
+    },
+    {
+      "id": 6,
+      "icon": "fa-code",
+      "heading": "Mobile/Web Development",
+      "summary": "With more than 5years of experience using cutting edge technology, I continuously create exceptionally innovative and highly engaging web solutions."
+    },
+    {
+      "id": 7,
+      "icon": "fa-industry",
+      "heading": "Digital Advertising",
+      "summary": "I build and manage targeted digital media campaigns, including social media management that improve visibility, drive traffic, and increase return on investment."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Henley Business School",
+      "certification": "Higher Certificate in Management Practice",
+      "year": "2021"
+    },
+    {
+      "institution": "University of Cape Town",
+      "certification": "Project Management Foundations Short Course",
+      "year": "2019"
+    },
+    {
+      "institution": "Tshwane University of Technology",
+      "certification": "B-tech Degree in Journalism",
+      "year": "2013"
+    },
+    {
+      "institution": "Tshwane University of Technology",
+      "certification": "National Diploma in Journalism",
+      "year": "2011"
+    },
+    {
+      "institution": "Reitumetse High School",
+      "certification": "Matric",
+      "year": "2008"
+    }
+  ]
+}
